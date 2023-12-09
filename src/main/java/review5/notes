@@ -1,0 +1,14 @@
+Arrays
+arrays are collection of items .items arre stored based on the indexes
+when we store the first item an index zero is assigned to it.
+We can use this index to access the elements back from the arrey
+
+
+Why we should learn arrays
+1) Whith help of arrays it is possible to store and manipulate large amounts
+of data using loops wich was not possible with variables
+
+Limitations of Enhanced Loop:
+1) We can't skip items
+2) We can't go in backward direction.
+3) We can't update the item in the array.

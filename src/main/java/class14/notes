@@ -1,0 +1,52 @@
+Types of variables:
+   There are three types of variables in Java
+   with respect to scope /visibility/accessibility
+   1) local
+   2)instance
+   3)static
+
+Local Variables:
+  Local varaiables are the variables which are defined inside
+  the block of code like if-else statement, loop,
+  switch-statement methods. They can only be accessed with-in that block of code.
+
+
+Upside;
+ They occupy the memory for least amount of time inside your computer
+ You should always try to go with local variables.
+
+DownSide:
+  They can only be accessed with-in the same block where they
+  are created.
+
+Instance Variables;
+  The variables which are defined inside a class but outside a block of code
+  like method if-else statement ,loop ,switch etc. are called as instance
+  variables. They can be accessed anywhere in the class expect static methods.
+
+Upside:
+  They can be accessed anywhere inside a class other than static methods.
+DownSide:
+  They occupy the memory for longer as compared to a local variable.
+
+Static Variables:
+  static variables are created static keyword they are also created outside of blocks
+  of code like methods, loops etc.
+Upside:
+   we can save a lot of space because for static only one memory location is used for all the object.
+
+Downside:
+   It occupies the memory for longest.
+
+Access Modifiers:
+   Access modifiers in java help us the control who can access what. There are 4 accesses
+   levels and we use three keywords to control these levels ,private ,default,protected and public.
+
+Private:
+  is the most restricted one when used with a variable or method those cant be accessed outside of that
+
+Important Note:
+  1) 99% of the methods are public
+  2) 99% of the instance fields are created as private
+  3) 99% of static fields are public
+  4)

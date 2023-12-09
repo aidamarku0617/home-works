@@ -1,0 +1,17 @@
+package class14;
+
+public class E1LocalVar {
+    public static void main(String[] args) {
+
+
+        int age=10;//is local variable bcs is inside the method public static.
+        if(10<5){
+            System.out.println(age);
+            String name="Jerry";
+        }
+        if(10>5){
+            //System.out.println(name); -->is outside the methods
+        }
+    }
+
+}

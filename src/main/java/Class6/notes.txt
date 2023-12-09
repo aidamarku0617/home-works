@@ -1,0 +1,2 @@
+LOOPS:
+loop allows us to repeat a piece of code again and again until condition fails
